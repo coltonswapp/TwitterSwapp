@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lpI-2g-8Q0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Twitter Stat View Controller-->
+        <scene sceneID="vka-zg-NUw">
+            <objects>
+                <viewController id="lpI-2g-8Q0" customClass="CBSTwitterStatViewController" customModule="TwitterSwappDev35" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g2R-jE-76Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" text="" placeholder="Search a twitter handle" translatesAutoresizingMaskIntoConstraints="NO" id="0z0-j9-jDa">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
+                            </searchBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="QmV-mC-L4d">
+                                <rect key="frame" x="41.5" y="135.5" width="331" height="272.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter Stat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-pM-wMM">
+                                        <rect key="frame" x="0.0" y="0.0" width="331" height="35"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="nbC-NU-VA8">
+                                        <rect key="frame" x="0.0" y="67" width="111.5" height="205.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNh-5z-HIC">
+                                                <rect key="frame" x="0.0" y="0.0" width="111.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Handle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-Ky-uwg">
+                                                <rect key="frame" x="0.0" y="45.5" width="111.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSG-di-YpN">
+                                                <rect key="frame" x="0.0" y="91" width="111.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3b-6k-zfx">
+                                                <rect key="frame" x="0.0" y="136.5" width="111.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Count:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPB-QL-lda">
+                                                <rect key="frame" x="0.0" y="182" width="111.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KMn-pM-wMM" firstAttribute="centerX" secondItem="QmV-mC-L4d" secondAttribute="centerX" id="KEb-N3-0hS"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QmV-mC-L4d" firstAttribute="width" secondItem="g2R-jE-76Y" secondAttribute="width" multiplier="0.8" id="465-bx-O2G"/>
+                            <constraint firstItem="QmV-mC-L4d" firstAttribute="centerY" secondItem="dft-FV-vi6" secondAttribute="centerY" multiplier="0.6" id="R0r-gf-7Bw"/>
+                            <constraint firstItem="QmV-mC-L4d" firstAttribute="centerX" secondItem="dft-FV-vi6" secondAttribute="centerX" id="cSg-Aj-ock"/>
+                            <constraint firstItem="0z0-j9-jDa" firstAttribute="leading" secondItem="dft-FV-vi6" secondAttribute="leading" id="hXq-Jz-nfk"/>
+                            <constraint firstItem="0z0-j9-jDa" firstAttribute="top" secondItem="dft-FV-vi6" secondAttribute="top" id="hys-CU-B4J"/>
+                            <constraint firstItem="0z0-j9-jDa" firstAttribute="trailing" secondItem="dft-FV-vi6" secondAttribute="trailing" id="kHj-Ey-twg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dft-FV-vi6"/>
+                    </view>
+                    <connections>
+                        <outlet property="displayNameLabel" destination="pNh-5z-HIC" id="fyY-ta-u1x"/>
+                        <outlet property="followersLabel" destination="MSG-di-YpN" id="9y2-SM-OT0"/>
+                        <outlet property="followingLabel" destination="S3b-6k-zfx" id="XDo-TQ-V25"/>
+                        <outlet property="searchBar" destination="0z0-j9-jDa" id="c88-ty-YJd"/>
+                        <outlet property="tweetCountLabel" destination="SPB-QL-lda" id="0KB-81-O4o"/>
+                        <outlet property="usernameLabel" destination="0PO-Ky-uwg" id="TCS-cs-Bmg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="062-tE-W3b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.47826086956525" y="104.46428571428571"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ABA14B73-AAF2-4198-AB43-ED81518999E0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09AEAE3D-830E-4AFE-B74E-0D31F25C0E87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitterSwappDev35/Controllers/ModelController/CBSUserController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "+fetchUserForSearchTerm:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5974B6F0-7BA6-44D9-B299-DC51C861DD4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwitterSwappDev35/Controllers/ModelController/CBSUserController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "+fetchUserForSearchTerm:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5974B6F0-7BA6-44D9-B299-DC51C861DD4A - 51669ac70ff81a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CBSUserController fetchUserForSearchTerm:completion:]"
+                  moduleName = "TwitterSwappDev35"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coltonswapp/Desktop/AppWalkthroughs/DevMtn%20iOS35/Week%204/TwitterSwappDev35/TwitterSwappDev35/Controllers/ModelController/CBSUserController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "5974B6F0-7BA6-44D9-B299-DC51C861DD4A - 3e73ca4ebe41f727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55+[CBSUserController fetchUserForSearchTerm:completion:]_block_invoke"
+                  moduleName = "TwitterSwappDev35"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coltonswapp/Desktop/AppWalkthroughs/DevMtn%20iOS35/Week%204/TwitterSwappDev35/TwitterSwappDev35/Controllers/ModelController/CBSUserController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "5974B6F0-7BA6-44D9-B299-DC51C861DD4A - 7dbbbffa2adfdd89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s"
+                  moduleName = "TwitterSwappDev35"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/coltonswapp/Desktop/AppWalkthroughs/DevMtn%20iOS35/Week%204/TwitterSwappDev35/TwitterSwappDev35/Controllers/ModelController/CBSUserController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
